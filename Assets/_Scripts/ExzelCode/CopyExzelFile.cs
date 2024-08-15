@@ -4,11 +4,10 @@ using System.Runtime.InteropServices;
 using UnityEngine;
 using UnityEngine.UI;
 
-namespace _Scripts.ExzelCode.Test2
+namespace _Scripts.ExzelCode
 {
-    public class SaveTest : MonoBehaviour 
+    public class CopyExzelFile : MonoBehaviour 
     {
-
         [SerializeField] private Button _copyFileButton;
 
         private void Start()

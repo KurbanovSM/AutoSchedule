@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace _Scripts.ClassSystem
+namespace _Scripts.ScheduleSystem.Data
 {
     [Serializable]
     public enum WeekDayName

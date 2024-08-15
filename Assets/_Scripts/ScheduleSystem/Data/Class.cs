@@ -1,13 +1,11 @@
 using TMPro;
 using UnityEngine;
 
-namespace _Scripts.ClassSystem
+namespace _Scripts.ScheduleSystem.Data
 {
     public class Class : MonoBehaviour
     {
         [SerializeField] private TMP_Text _titleText;
-        [SerializeField] private Weekday _weekday;
-        
-        
+        [SerializeField] private WeekdayView weekdayView;
     }
 }

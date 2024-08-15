@@ -2,11 +2,11 @@ using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
 
-namespace _Scripts.ClassSystem
+namespace _Scripts.ScheduleSystem.View
 {
-    public class Day : MonoBehaviour
+    public class DayView : MonoBehaviour
     {
         [SerializeField] private TMP_Text _dayNameText;
-        [SerializeField] private List<Learn> _learns;
+        [SerializeField] private List<LearnView> _learns;
     }
 }
